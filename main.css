@@ -1,0 +1,69 @@
+
+* {
+  box-sizing: border-box;
+}
+#hero{
+  display : flex;
+  flex-direction: row;
+  padding:98px;
+  margin: 30px; 
+  max-width: 1440px;
+
+}
+
+img{
+  width: 505px;
+  height: 330px;
+  padding : 96px 70px 53px 23px;
+  margin : 2px;
+  object-fit: cover;}
+
+ .item2 > h1 
+ {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding : 10px;
+  margin : 20px;
+ 
+ }
+
+  h1::after
+  { 
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  }
+
+
+
+
+
+
+  #popup {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+      0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    width: 250px;
+    margin: auto;
+    z-index: 3;
+    overflow: hidden;
+    border-radius: 4px;
+    display: none;
+    padding: 8px;
+    text-align: center;
+   
+  }
+  #popup.show {
+    display: block;
+  }
